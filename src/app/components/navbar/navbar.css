@@ -1,0 +1,21 @@
+nav {
+    text-align: center;
+    background-color: #005d89ff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 40px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Passero One', cursive;
+    font-size: 30px;
+}
+
+nav img {
+    margin-right: 100px;
+}

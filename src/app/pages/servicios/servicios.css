@@ -1,0 +1,50 @@
+.servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.servicio {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease; /* Agregamos color a la transición */
+}
+
+.servicio:hover {
+    transform: translateY(-10px); /* Mueve el cuadro hacia arriba */
+    background-color: #005d89ff; /* Cambia el color de fondo al pasar el mouse */
+}
+
+.servicio:hover h2,
+.servicio:hover p {
+    color: #fff; /* Cambia el color del texto a blanco al pasar el mouse */
+}
+
+.servicio h2 {
+    font-size: 24px;
+    color: #000; /* Color inicial del texto (negro) */
+}
+
+.servicio p {
+    font-size: 16px;
+    color: #000; /* Color inicial del texto (negro) */
+}
+
+.servicio a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #005d89ff;  /* Color inicial del botón (azul oscuro) */
+    color: #fff; /* Color del texto del botón (blanco) */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.servicio a:hover {
+    background-color: rgb(67, 180, 1);
+    color: #fff;
+}

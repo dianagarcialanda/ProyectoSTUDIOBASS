@@ -1,0 +1,55 @@
+<section style="text-align: center;">
+  <img src="/animacionLogo.gif" alt="Animación del logo" width="600">
+</section>
+
+
+<div class="contenedor-diseno">
+  <p class ="phome">Agencia especializada en diseño y desarrollo de marcas.<br>
+  Hacemos que tu marca se sienta, se escuche y se vea bien.</p>
+</div>
+
+<div class="carousel">
+  <div class="carousel-inner " [style.transform]="'translateX(-' + (currentSlide * 100) + '%)'">
+    <div class="carousel-item" [class.active]="currentSlide === 0">
+      <div class="item-content">
+        <div class="text">
+          <h2 class="h2Ca" style="color: white;">DISEÑAMOS MÁS <br> QUE UN LOGO</h2>
+          <p class="pCa" style="color: white;">Desarrollamos la imagen de tu empresa, producto o negocio para que destaque de forma única.</p>
+          <a href="#" class="btn">Ver portafolio</a>
+        </div>
+        <div class="image">
+          <img src="/Granito.jpg" alt="Image 1" width="500" height="300">
+        </div>
+      </div>
+    </div>
+    
+    <div class="carousel-item" [class.active]="currentSlide === 1">
+      <div class="item-content">
+        <div class="text">
+          <h2 class="h2Ca" style="color: white;">DISEÑAMOS MÁS <br> QUE UN LOGO</h2>
+          <p class="pCa" style="color: white;">Desarrollamos la imagen de tu empresa, producto o negocio para que destaque de forma única.</p>
+          <a href="#" class="btn">Ver portafolio</a>
+        </div>
+        <div class="image">
+          <img src="/kivora.jpg" alt="Image 2" width="500" height="300">
+        </div>
+      </div>
+    </div>
+    
+    <div class="carousel-item" [class.active]="currentSlide === 2">
+      <div class="item-content">
+        <div class="text">
+          <h2 class="h2Ca" style="color: white;">DISEÑAMOS MÁS <br> QUE UN LOGO</h2>
+          <p class="pCa" style="color: white;">Desarrollamos la imagen de tu empresa, producto o negocio para que destaque de forma única.</p>
+          <a href="#" class="btn">Ver portafolio</a>
+        </div>
+        <div class="image">
+          <img src="/Background.jpg" alt="Image 3" width="500" height="300">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" (click)="prevSlide()">&#10094;</button>
+  <button class="carousel-control-next" (click)="nextSlide()">&#10095;</button>
+</div>

@@ -1,0 +1,117 @@
+/*-------------------------------CONTACTO-------------------------------------------------------------------------*/
+.contacto {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.contacto h2 {
+    font-family: 'Passero One', cursive;
+    font-size: 40px;
+    color: #002f85ff;
+    margin-bottom: 20px;
+}
+
+.contacto-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.contacto-info {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    text-align: left;
+    margin-right: 40px;
+}
+
+.contacto-form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    text-align: left;
+    margin-right: 40px;
+}
+
+.contacto-info h3, .contacto-form h3 {
+    font-family: 'Passero One', cursive;
+    font-size: 25px;
+    color: #fcb908ff;
+    margin-bottom: 20px;
+}
+
+.contacto-info p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #002f85ff;
+    line-height: 1.6;
+}
+
+.contacto-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contacto-info ul li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #002f85ff;
+    margin-bottom: 10px;
+}
+
+.contacto-info ul li strong {
+    color: #fcb908ff;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+.contacto-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contacto-form label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #002f85ff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto-form input, .contacto-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #002f85ff;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.contacto-form button {
+    background-color: #002f85ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Passero One', cursive;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contacto-form button:hover {
+    background-color: #fcb908ff;
+    color: #002f85ff;
+}

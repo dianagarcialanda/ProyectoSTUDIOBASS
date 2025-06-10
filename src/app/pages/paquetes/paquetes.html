@@ -1,0 +1,30 @@
+<div class="carousel">
+  <div class="carousel-inner " [style.transform]="'translateX(-' + (currentSlide * 100) + '%)'">
+    <div class="carousel-item" [class.active]="currentSlide === 0">
+      <div class="item-content">
+        <div class="image">
+          <img src="/paqueteBasico.jpg" alt="Image 1" width="500" height="300">
+        </div>
+      </div>
+    </div>
+    
+    <div class="carousel-item" [class.active]="currentSlide === 1">
+      <div class="item-content">
+        <div class="image">
+          <img src="/paqueteEmprendedor.jpg" alt="Image 2" width="500" height="300">
+        </div>
+      </div>
+    </div>
+    
+    <div class="carousel-item" [class.active]="currentSlide === 2">
+      <div class="item-content">
+        <div class="image">
+          <img src="/paqueteEmpresarial.jpg" alt="Image 3" width="500" height="300">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" (click)="prevSlide()">&#10094;</button>
+  <button class="carousel-control-next" (click)="nextSlide()">&#10095;</button>
+</div>

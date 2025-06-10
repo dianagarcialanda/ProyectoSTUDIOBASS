@@ -1,0 +1,75 @@
+
+footer {
+    background-color: #005d89ff; /* Mismo color que la navbar */
+    color: white;
+    margin: 0px;
+    padding: 0px 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-logo img {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 50px;
+    height: auto;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    margin: 0px 0px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Passero One', cursive;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffcc00; /* Cambia el color al pasar el mouse */
+}
+
+.footer-social {
+    gap: 20px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.footer-social a img {
+    width: 30px;
+    height: auto;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.footer-social a:hover img {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    transform: scale(1.2); /* Efecto de escala al pasar el mouse */
+}
+
+.footer-info {
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 0px;
+}
+
+.footer-info p {
+    margin: 0px 0px;
+}

@@ -1,0 +1,73 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+}
+
+.carousel-item {
+    min-width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-content {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+/* Colores de fondo para cada diapositiva */
+.carousel-item:nth-child(1) {
+    background-color: #0b0069;
+}
+
+.carousel-item:nth-child(2) {
+    background-color: #b3a70cea;
+}
+
+.carousel-item:nth-child(3) {
+    background-color: #fff3ea;
+}
